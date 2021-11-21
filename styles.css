@@ -53,7 +53,27 @@ body{
 
 
 .portfolio .card-section{
+    position: relative;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    grid-gap: 20px;
 }
+
+.portfolio .card-section #work1 #img4, #work2 #img5 ,#work3 #img6 ,#work4 #img7 
+,#work5 #img8,#work6 #img9 ,#work7 #img10 ,#work8 #img11{
+    width: 100%;
+    }
+
+.portfolio .card-section #work1 #p1, #work2 #p2 ,#work3 #p3 ,#work4 #p4 ,#work5 #p5 ,#work6 #p6 ,#work7 #p7 ,#work8 #p8{
+display: none;
+}
+
+
+.portfolio .card-section #work1:hover, #work2:hover ,#work3:hover ,#work4:hover 
+,#work5:hover,#work6:hover ,#work7:hover,#work8:hover{
+    opacity: 0.6;
+    }
+
+
+
 
