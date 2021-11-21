@@ -38,5 +38,10 @@ body{
 }
 
 
+.service-section{
+    background-image: url("images/backgrounds/s_image.jpg");
+    height: 400px;
+    
+}
 
 
