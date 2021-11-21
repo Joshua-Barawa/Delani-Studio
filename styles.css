@@ -29,10 +29,6 @@ body{
     font-size: 40px;
 }
 
-.hero #logo{
-    z-index:-1;
-}
-
 .hero #mouse-click{
     padding-top: 70px;
 }
@@ -42,6 +38,7 @@ body{
     background-image: url("images/backgrounds/s_image.jpg");
     height: 400px;
     color: #fff;
+  padding-top: 100px;
 }
 
 
