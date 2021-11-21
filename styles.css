@@ -17,7 +17,7 @@ body{
 }
 
 .hero{
-    padding-top: 200px;
+    padding-top: 170px;
     background-image: url("images/backgrounds/h_img.jpg");
     background-size: 100% 100%;
     height: 650px;
@@ -25,12 +25,16 @@ body{
     color: #fff;
 }
 
+.hero h1{
+    font-size: 40px;
+}
+
 .hero #logo{
     z-index:-1;
 }
 
 .hero #mouse-click{
-    padding-top: 100px;
+    padding-top: 70px;
 }
 
 
