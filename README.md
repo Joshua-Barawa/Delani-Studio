@@ -17,17 +17,16 @@
 This is a simple landing page for Delani Studios developed using Html/Css and JQuery
 ## Visuals
 This is a screenshot of the webpage
-![Screenshot from 2021-11-06 00-19-24](https://user-images.githubusercontent.com/91249358/140580617-d569cc86-c6e9-4193-bc91-e887427761fb.png)
 ## Contributors
 * Joshua Barawa
 ## Setup/Installation Requirements
-* Clone or download the project from my repo https://github.com/Joshua-Barawa/MyPortfolio
+* Clone or download the project from my repo https://github.com/Joshua-Barawa/Delani-Studio
 * Extract the project 
 * Open with visual studio code
-* Or you can You can view it using my git hub pages https://joshua-barawa.github.io/MyPortfolio/
+* Or you can You can view it using my git hub pages https://joshua-barawa.github.io/Delani-Studio/
 
 ## Technologies Used
-* The project was developed using HTML/CSS
+* The project was developed using HTML/CSS and JQuery
 * I used Visual Studio as my development tool
 ## Support and contact details
 * If you get any issue contact mwamlandabarawa@gmail.com
