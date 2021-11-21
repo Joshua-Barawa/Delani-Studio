@@ -129,3 +129,27 @@ textarea:focus{
 footer{
     padding-top: 40px;
 }
+
+@media only screen and (max-width: 760px){
+    .container{
+        padding: 0px 4%;
+        margin: 0px;
+    }
+
+    .hero #mouse-click{
+        padding-top: 0px;
+    }
+
+    .service-section{
+       height: 500px;
+    }
+
+    input{
+    width: 40%;
+    }
+    
+    
+    textarea{
+        width: 60%;
+    }
+}
