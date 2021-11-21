@@ -64,4 +64,12 @@ $('#work8').hover(function(){
 })
 
 
+$('#submit').click(function(e){
+    e.preventDefault();
+    var name = $('#name').val();
+
+    alert(name + " ,we have received your message. Thank you for reaching out to us")
+})
+
+
 })
