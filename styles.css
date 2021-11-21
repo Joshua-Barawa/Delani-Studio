@@ -28,3 +28,9 @@ body{
 .hero #logo{
     z-index:-1;
 }
+
+.hero #mouse-click{
+    padding-top: 100px;
+}
+
+
