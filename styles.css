@@ -92,6 +92,11 @@ input{
     color: #fff;
 }
 
+input:focus{
+    outline: none;
+}
+
+
 textarea{
     width: 50%;
     min-height: 200px;
@@ -101,11 +106,19 @@ textarea{
     color: #fff;
 }
 
+textarea:focus{
+    outline: none;
+}
+
 #submit{
     width: 150px;
     padding: 5px 0px;;
     background-color: transparent;
     border: #fff 1px solid;
+}
+
+#submit:hover{
+    background-color: rgb(199, 193, 181);
 }
 
 ::placeholder {
