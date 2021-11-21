@@ -64,9 +64,12 @@ body{
     width: 100%;
     }
 
+
 .portfolio .card-section #work1 #p1, #work2 #p2 ,#work3 #p3 ,#work4 #p4 ,#work5 #p5 ,#work6 #p6 ,#work7 #p7 ,#work8 #p8{
-display: none;
-}
+    display: none;
+    position: relative;
+    top:-50%;
+    }
 
 
 .portfolio .card-section #work1:hover, #work2:hover ,#work3:hover ,#work4:hover 
