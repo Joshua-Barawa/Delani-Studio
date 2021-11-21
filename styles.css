@@ -47,4 +47,8 @@ body{
      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
+.whatwedo #card-section #description1 ,#description2, #description3 {
+    display: none;
+}
+
 

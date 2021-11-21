@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Delani Studio</title>
         <link rel="stylesheet" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
 
     <body>
@@ -39,24 +40,24 @@
                 <h1>WHAT WE DO</h1>
 
 <div id="card-section">
-                    <div class="card">
+                    <div class="card1">
                         <div id="design-card">
-                            <img src="images/services_icons/design_icon.png" alt="design-logo">
+                            <img id="img1" src="images/services_icons/design_icon.png" alt="design-logo">
                              <h4>DESIGN</h4>
                         </div>
-                        <div id="design">
+                        <div id="description1">
                             <p>Our design offers a full range of services including brand strategy,interaction and visual designand user experience testing.</p>
                             <p>Throughout your project,our designers create and implement visual design and work flows,solicit user feedback and work with you to make sure what gets built is what is needed.</p>
                         </div>
                     </div>
 
 
-                    <div class="card">
+                    <div class="card2">
                         <div id="development-card">
-                        <img src="images/services_icons/dev_icon.png" alt="development icon">
+                        <img id="img2" src="images/services_icons/dev_icon.png" alt="development icon">
                         <h4>DEVELOPMENT</h4>
                         </div>
-                        <div id="development">
+                        <div id="description2">
                             <p>All engineers are fluent in the latest enterprise,mobile and web development technologies.</p>
                             <p>They collaborate with your team to write and improve code on a daily basis, using proven practices such as 
                                 test-driven development and pair programming.
@@ -65,14 +66,14 @@
                     </div>
 
 
-                    <div class="card">
+                    <div class="card3">
 
                         <div id="product-card">
-                        <img src="images/services_icons/product_icon.png">
+                        <img id="img3" src="images/services_icons/product_icon.png">
                         <h4>PRODUCT MANAGEMENT</h4>
                         </div>
 
-                        <div id="management">
+                        <div id="description3">
                             <p>Planning and development is iterative.Because we are constantly coding and testing,the products
                                 we build are ready to go live.</p>
                             <p>This iterative process allows for changes as bussiness requirements evolve.</p>
@@ -81,6 +82,7 @@
 
                 </div>
             </div>
+
       
         
             <div class="portfolio">
@@ -170,7 +172,6 @@
         </footer>
     </div>
         
-        <script src="JS/scripts.js"></script>
-        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='MMERGE2';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+        <script src="index.js"></script>
     </body>
 </html>
