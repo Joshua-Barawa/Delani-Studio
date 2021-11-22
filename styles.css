@@ -110,11 +110,11 @@ input:focus{
     color: #fff;
 }
 
-#submit{
-    width: 150px;
-    padding: 5px 0px;;
-    background-color: transparent;
-    border: #fff 1px solid;
+.button{
+    position: relative;
+    left: 40%;
+    margin-left: 300px;
+
 }
 
 #submit:hover{
@@ -128,7 +128,6 @@ input:focus{
 
 footer{
     padding-top: 40px;
-    position: relative;
     text-align: center;
 }
 
