@@ -8,6 +8,7 @@
 body{
     padding:0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 .container{
@@ -86,6 +87,7 @@ height: 400px;
 color:white;
 }
 
+
 input{
     margin-bottom: 10px;
     width: 30%;
@@ -100,17 +102,12 @@ input:focus{
 }
 
 
-textarea{
+#mce-MMERGE2{
     width: 50%;
     min-height: 200px;
-    padding: 10px;
     background-color: transparent;
     border: #fff 1px solid;
     color: #fff;
-}
-
-textarea:focus{
-    outline: none;
 }
 
 #submit{
@@ -131,6 +128,8 @@ textarea:focus{
 
 footer{
     padding-top: 40px;
+    position: relative;
+    text-align: center;
 }
 
 @media only screen and (max-width: 760px){
